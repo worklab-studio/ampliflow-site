@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor
+.vscode/
+.idea/
+*.iml
+
+# Local server / build artefacts (none expected for static site)
+node_modules/
+.cache/
+dist/
+build/
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# Secrets / env (none expected here, but defensive)
+.env
+.env.local
+.env.*.local
