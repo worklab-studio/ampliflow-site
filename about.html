@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About — Ampliflow: built by founders who actually run outbound</title>
+<meta name="description" content="Ampliflow is a small team building the LinkedIn outreach tool we wished existed — every feature you need, half the price of Dripify, real human support from the people who write the code." />
+<meta name="keywords" content="ampliflow about, ampliflow team, ampliflow founders, dripify alternative founders" />
+<meta name="author" content="Ampliflow" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#2F37D9" />
+<link rel="canonical" href="https://ampliflow.io/about.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ampliflow.io/about.html" />
+<meta property="og:title" content="About — Ampliflow: built by founders who actually run outbound" />
+<meta property="og:description" content="Half the price, same safety, real human support. Meet the team behind Ampliflow." />
+<meta property="og:site_name" content="Ampliflow" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:image" content="https://ampliflow.io/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://ampliflow.io/about.html" />
+<meta name="twitter:title" content="About — Ampliflow" />
+<meta name="twitter:description" content="Half the price, same safety, real human support. Meet the team behind Ampliflow." />
+<meta name="twitter:image" content="https://ampliflow.io/og.jpg" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "url": "https://ampliflow.io/about.html",
+      "name": "About Ampliflow"
+    },
+    {
+      "@type": "Organization",
+      "name": "Ampliflow",
+      "url": "https://ampliflow.io/",
+      "logo": "https://ampliflow.io/logo.png",
+      "founder": { "@type": "Person", "name": "Deepak Yadav" },
+      "foundingDate": "2025"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ampliflow.io/" },
+        { "@type": "ListItem", "position": 2, "name": "About", "item": "https://ampliflow.io/about.html" }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 37 41'%3E%3Cpath fill='%232F37D9' d='M4.07 13.9H0v18h4.69l2.57-17h.7v21.5h4.87L15.31 12.92h.71v27.18h4.96l2.57-17.34.44-.12v19.83h5.04l2.3-12.48h.8v12.48h3.98v-18h-4.78l-2.48 17.08h-.7V9.38H23.28l-2.48 23.72h-.53V5.67H15.31l-2.48 23.72h-.7V9.38H7.26L4.69 26.29h-.62z'/%3E%3C/svg%3E" />
+
+<style>
+/* ============== ABOUT PAGE — calm editorial layout ============== */
+
+/* Page container — generous side gutters */
+.ab-wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ---------- 1. HERO ---------- */
+.ab-hero {
+  padding: 140px 0 120px;
+  position: relative;
+}
+.ab-hero-eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .28em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 40px;
+  display: inline-block;
+  padding: 6px 10px;
+  border: 0.5px solid var(--primary);
+}
+.ab-hero h1 {
+  font-size: clamp(44px, 6vw, 80px);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  line-height: 1.02;
+  margin: 0 0 36px;
+  color: var(--t1);
+  max-width: 880px;
+}
+.ab-hero h1 .em {
+  color: var(--primary);
+  font-style: italic;
+  font-weight: 400;
+}
+.ab-hero-lede {
+  font-size: 18px;
+  color: var(--t2);
+  line-height: 1.6;
+  margin: 0;
+  max-width: 620px;
+  letter-spacing: -.005em;
+}
+.ab-hero-meta {
+  margin-top: 64px;
+  padding-top: 36px;
+  border-top: 0.5px solid var(--border-md);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+.ab-hero-meta .row { display: flex; flex-direction: column; gap: 6px; }
+.ab-hero-meta .k {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: .22em;
+  font-weight: 600;
+  color: var(--t3);
+  text-transform: uppercase;
+}
+.ab-hero-meta .v {
+  font-size: 14px;
+  color: var(--t1);
+  letter-spacing: -.005em;
+  font-weight: 500;
+}
+
+/* ---------- 2. ORIGIN / MANIFESTO ---------- */
+.ab-origin {
+  padding: 120px 0;
+  background:
+    repeating-linear-gradient(45deg, transparent 0, transparent 16px, rgba(47,55,217,.03) 16px, rgba(47,55,217,.03) 17px),
+    #f7f8fc;
+}
+.ab-origin-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: 96px;
+  align-items: start;
+}
+.ab-origin-side {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.ab-origin-tag {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .26em;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid var(--primary);
+  width: fit-content;
+}
+.ab-origin-portrait {
+  position: relative;
+  width: 120px; height: 120px;
+  background: var(--primary);
+}
+.ab-origin-portrait img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ab-origin-portrait .brackets {
+  width: 11px; height: 11px;
+  border-width: 1.5px;
+  border-color: var(--primary);
+}
+.ab-origin-sig {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ab-origin-sig .name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--t1);
+  letter-spacing: -.01em;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color .15s;
+}
+.ab-origin-sig a.name:hover { color: var(--primary); }
+.ab-origin-sig .name svg { opacity: .55; transition: opacity .15s, transform .2s; }
+.ab-origin-sig a.name:hover svg { opacity: 1; transform: translate(2px, -2px); }
+.ab-origin-sig .role {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .16em;
+  color: var(--t3);
+  text-transform: uppercase;
+}
+.ab-origin-body {
+  font-size: 19px;
+  color: var(--t1);
+  line-height: 1.6;
+  letter-spacing: -.012em;
+}
+.ab-origin-body p { margin: 0 0 28px; }
+.ab-origin-body p:last-child { margin-bottom: 0; }
+.ab-origin-body .accent {
+  background: linear-gradient(180deg, transparent 65%, rgba(47,55,217,.18) 65%);
+  padding: 0 3px;
+  color: var(--t1);
+  font-weight: 500;
+}
+.ab-origin-body em { font-style: italic; color: var(--t2); }
+
+/* ---------- 3. BELIEFS ---------- */
+.ab-beliefs {
+  padding: 140px 0 120px;
+}
+.ab-section-head {
+  margin-bottom: 72px;
+  max-width: 720px;
+}
+.ab-section-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .26em;
+  color: var(--primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 6px 10px;
+  border: 0.5px solid var(--primary);
+}
+.ab-section-h2 {
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 700;
+  letter-spacing: -.028em;
+  line-height: 1.05;
+  margin: 0 0 20px;
+  color: var(--t1);
+}
+.ab-section-h2 .accent { color: var(--primary); }
+.ab-section-sub {
+  font-size: 16px;
+  color: var(--t2);
+  line-height: 1.6;
+  margin: 0;
+  letter-spacing: -.005em;
+}
+.ab-beliefs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.ab-belief {
+  position: relative;
+  padding: 48px 36px 40px;
+  background: #fff;
+  border: 0.5px solid var(--border-md);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 320px;
+}
+.ab-belief .brackets {
+  width: 13px; height: 13px;
+  border-width: 1.5px;
+  border-color: var(--t1);
+}
+.ab-belief-icon {
+  width: 48px; height: 48px;
+  background: var(--primary);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ab-belief-icon svg { width: 22px; height: 22px; }
+.ab-belief-h {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -.022em;
+  color: var(--t1);
+  margin: 0;
+  line-height: 1.15;
+}
+.ab-belief-text {
+  font-size: 14.5px;
+  color: var(--t2);
+  line-height: 1.6;
+  margin: 0;
+}
+.ab-belief.tone-fill {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+.ab-belief.tone-fill .ab-belief-icon { background: #fff; color: var(--primary); }
+.ab-belief.tone-fill .ab-belief-h { color: #fff; }
+.ab-belief.tone-fill .ab-belief-text { color: rgba(255,255,255,.82); }
+.ab-belief.tone-fill .brackets { border-color: rgba(255,255,255,.7); }
+.ab-belief.tone-dots {
+  background:
+    radial-gradient(circle, #c9cee0 1px, transparent 1.4px) 0 0 / 16px 16px,
+    #f5f6fb;
+}
+
+/* ---------- 4. TEAM ---------- */
+.ab-team {
+  background: #0d0f14;
+  color: #fff;
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+}
+.ab-team::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle, rgba(255,255,255,.04) 1px, transparent 1.4px) 0 0 / 22px 22px;
+  pointer-events: none;
+}
+.ab-team-inner { position: relative; z-index: 2; }
+.ab-team .ab-section-num {
+  color: #fff;
+  border-color: rgba(255,255,255,.4);
+}
+.ab-team .ab-section-h2 { color: #fff; }
+.ab-team .ab-section-h2 .accent { color: #8088ff; }
+.ab-team .ab-section-sub { color: rgba(255,255,255,.65); }
+
+.ab-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.ab-member {
+  position: relative;
+  background: rgba(255,255,255,.03);
+  border: 0.5px solid rgba(255,255,255,.12);
+  padding: 32px 28px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.ab-member .brackets {
+  width: 11px; height: 11px;
+  border-width: 1.5px;
+  border-color: rgba(255,255,255,.55);
+}
+.ab-member-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--primary);
+  overflow: hidden;
+}
+.ab-member-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: filter .35s ease;
+}
+.ab-member:hover .ab-member-photo img { filter: brightness(1.05); }
+.ab-member-info { display: flex; flex-direction: column; gap: 8px; }
+.ab-member-name {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -.015em;
+  color: #fff;
+  margin: 0;
+}
+.ab-member-role {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .18em;
+  color: rgba(255,255,255,.55);
+  text-transform: uppercase;
+}
+.ab-member-bio {
+  font-size: 13.5px;
+  color: rgba(255,255,255,.7);
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+.ab-member-link {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .18em;
+  color: rgba(255,255,255,.55);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 16px;
+  margin-top: 4px;
+  border-top: 0.5px solid rgba(255,255,255,.12);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color .2s, gap .2s;
+}
+.ab-member-link svg { transition: transform .2s; }
+.ab-member-link:hover { color: #fff; }
+.ab-member-link:hover svg { transform: translateX(3px); }
+
+/* ---------- 5. CLOSING CTA ---------- */
+.ab-cta {
+  padding: 120px 0 140px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(47,55,217,.05) 1px, transparent 1.4px) 0 0 / 22px 22px;
+}
+.ab-cta-inner {
+  position: relative;
+  background: #fff;
+  border: 0.5px solid var(--border-md);
+  padding: 64px 60px;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 64px;
+  align-items: stretch;
+}
+.ab-cta-inner .brackets {
+  width: 14px; height: 14px;
+  border-width: 1.5px;
+  border-color: var(--t1);
+}
+.ab-cta-left { display: flex; flex-direction: column; }
+.ab-cta-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .24em;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border: 0.5px solid var(--primary);
+  margin-bottom: 28px;
+  align-self: flex-start;
+}
+.ab-cta-tag .dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--primary);
+  animation: pulse-green 2s ease-in-out infinite;
+}
+.ab-cta h2 {
+  font-size: clamp(34px, 4.4vw, 52px);
+  font-weight: 700;
+  letter-spacing: -.03em;
+  line-height: 1.02;
+  margin: 0 0 20px;
+  color: var(--t1);
+}
+.ab-cta h2 .em {
+  color: var(--primary);
+  font-style: italic;
+  font-weight: 400;
+}
+.ab-cta-perks {
+  list-style: none;
+  margin: 28px 0 32px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ab-cta-perks li {
+  position: relative;
+  padding-left: 28px;
+  font-size: 14.5px;
+  color: var(--t1);
+  letter-spacing: -.005em;
+  line-height: 1.5;
+}
+.ab-cta-perks li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 4px;
+  width: 16px; height: 16px;
+  background: var(--primary);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ab-cta-perks li strong { color: var(--primary); font-weight: 600; }
+.ab-cta-form {
+  display: flex;
+  gap: 8px;
+  max-width: 480px;
+}
+.ab-cta-form input {
+  flex: 1;
+  padding: 14px 16px;
+  border: 0.5px solid var(--border-md);
+  background: #fafbff;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--t1);
+  outline: none;
+  letter-spacing: -.005em;
+  border-radius: 4px;
+  transition: border-color .15s, background .15s;
+}
+.ab-cta-form input:focus { border-color: var(--primary); background: #fff; }
+.ab-cta-form button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 14px 22px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: inherit;
+  letter-spacing: -.005em;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+  transition: transform .2s, background .2s;
+}
+.ab-cta-form button:hover { transform: translateY(-1px); background: var(--t1); }
+.ab-cta-fineprint {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: .2em;
+  color: var(--t3);
+  text-transform: uppercase;
+  margin: 16px 0 0;
+}
+
+/* right-side price card — simplified */
+.ab-cta-right {
+  position: relative;
+  background: var(--primary);
+  color: #fff;
+  padding: 44px 36px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.ab-cta-right::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle, rgba(255,255,255,.07) 1px, transparent 1.4px) 0 0 / 18px 18px;
+  pointer-events: none;
+}
+.ab-cta-right > *:not(.brackets) { position: relative; z-index: 2; }
+.ab-cta-right .brackets {
+  position: absolute;
+  z-index: 3;
+  border-color: rgba(255,255,255,.7);
+}
+.ab-cta-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.ab-cta-price .n {
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: -.045em;
+  line-height: .95;
+  color: #fff;
+}
+.ab-cta-price .u {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: rgba(255,255,255,.7);
+  letter-spacing: 0;
+}
+.ab-cta-vs-simple {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-bottom: 22px;
+  border-bottom: 0.5px solid rgba(255,255,255,.18);
+}
+.ab-cta-vs-simple .vs-strike {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255,255,255,.6);
+  text-decoration: line-through;
+  text-decoration-color: rgba(255,255,255,.55);
+  letter-spacing: -.015em;
+}
+.ab-cta-vs-simple .vs-label {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: .18em;
+  color: rgba(255,255,255,.7);
+  text-transform: uppercase;
+}
+.ab-cta-spots {
+  margin-top: 0;
+}
+.ab-cta-bar {
+  height: 6px;
+  background: rgba(255,255,255,.18);
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.ab-cta-bar .fill {
+  position: absolute;
+  inset: 0 53% 0 0;
+  background:
+    repeating-linear-gradient(45deg, #fff 0, #fff 4px, transparent 4px, transparent 7px),
+    #fff;
+}
+.ab-cta-spots-label {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.85);
+}
+.ab-cta-spots-label strong { color: #fff; font-weight: 700; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 960px) {
+  .ab-wrap { padding: 0 24px; }
+  .ab-hero { padding: 100px 0 80px; }
+  .ab-hero-meta { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .ab-origin { padding: 80px 0; }
+  .ab-origin-inner { grid-template-columns: 1fr; gap: 48px; }
+  .ab-origin-side { flex-direction: row; flex-wrap: wrap; gap: 24px; align-items: center; }
+  .ab-beliefs { padding: 96px 0 80px; }
+  .ab-beliefs-grid { grid-template-columns: 1fr; gap: 14px; }
+  .ab-team { padding: 80px 0; }
+  .ab-team-grid { grid-template-columns: 1fr; gap: 14px; }
+  .ab-cta { padding: 80px 0 96px; }
+  .ab-cta-inner { grid-template-columns: 1fr; padding: 48px 32px; gap: 36px; }
+  .ab-cta-right { padding: 36px 28px; }
+}
+@media (max-width: 560px) {
+  .ab-hero { padding: 72px 0 64px; }
+  .ab-hero-meta { grid-template-columns: 1fr; gap: 20px; }
+  .ab-origin-body { font-size: 17px; }
+  .ab-cta-form { flex-direction: column; }
+  .ab-cta-inner { padding: 36px 24px; }
+  .ab-cta-price .n { font-size: 60px; }
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+
+<nav role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="logo" aria-label="Ampliflow">
+    <svg viewBox="0 0 178 41" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M60.4377 14.9299C60.5219 14.7193 60.6378 14.6139 60.7852 14.6139H64.1341C64.3237 14.6139 64.4185 14.7193 64.4185 14.9299V29.6841C64.4185 29.8947 64.3132 30 64.1025 30H60.7536C60.6483 30 60.5746 29.9789 60.5325 29.9368C60.4903 29.8736 60.4482 29.7894 60.4061 29.6841L59.9006 28.4519C58.8896 29.7157 57.51 30.3475 55.7618 30.3475C54.6034 30.3475 53.5503 30.158 52.6025 29.7788C51.6547 29.3997 50.8438 28.8626 50.1698 28.1676C49.4958 27.4515 48.9692 26.5984 48.5901 25.6085C48.2321 24.6186 48.053 23.5339 48.053 22.3544C48.053 21.1749 48.2321 20.1007 48.5901 19.1318C48.9692 18.1419 49.4958 17.2994 50.1698 16.6043C50.8648 15.8882 51.6863 15.3406 52.6341 14.9615C53.603 14.5613 54.6877 14.3612 55.8882 14.3612C56.7518 14.3612 57.51 14.5297 58.163 14.8667C58.8369 15.1826 59.4162 15.6355 59.9006 16.2252L60.4377 14.9299ZM52.6657 22.3544C52.6657 23.3654 52.9711 24.1868 53.5819 24.8187C54.2138 25.4295 55.0247 25.7349 56.0146 25.7349C57.0466 25.7349 57.8681 25.4295 58.4789 24.8187C59.1108 24.2079 59.4267 23.3864 59.4267 22.3544C59.4267 21.3434 59.1108 20.5325 58.4789 19.9217C57.847 19.2898 57.0256 18.9739 56.0146 18.9739C55.0036 18.9739 54.1927 19.2898 53.5819 19.9217C52.9711 20.5325 52.6657 21.3434 52.6657 22.3544ZM70.8564 14.6139C71.0881 14.6139 71.225 14.7193 71.2671 14.9299L71.5515 16.0357C72.0148 15.467 72.573 15.0247 73.2259 14.7087C73.8788 14.3928 74.6581 14.2348 75.5638 14.2348C76.5116 14.2348 77.3647 14.477 78.1229 14.9615C78.8812 15.4248 79.492 16.0988 79.9553 16.9835C80.3976 16.0988 80.9979 15.4248 81.7562 14.9615C82.5144 14.477 83.4622 14.2348 84.5996 14.2348C85.3789 14.2348 86.095 14.4033 86.7479 14.7403C87.4009 15.0563 87.959 15.5196 88.4224 16.1304C88.8858 16.7202 89.2438 17.4468 89.4966 18.3104C89.7704 19.1529 89.9073 20.0902 89.9073 21.1222V29.6525C89.9073 29.8842 89.802 30 89.5914 30H85.6106C85.3789 30 85.263 29.8842 85.263 29.6525V22.1964C85.263 21.1643 85.0945 20.364 84.7575 19.7953C84.4416 19.2055 83.9256 18.9107 83.2095 18.9107C82.5355 18.9317 81.9773 19.2266 81.535 19.7953C81.1138 20.364 80.9031 21.4066 80.9031 22.923V29.6525C80.9031 29.8842 80.7978 30 80.5872 30H76.5748C76.3642 30 76.2589 29.8842 76.2589 29.6525V22.1964C76.2589 21.1643 76.0904 20.364 75.7534 19.7953C75.4164 19.2055 74.8898 18.9107 74.1737 18.9107C73.5629 18.9317 73.0363 19.195 72.594 19.7005C72.1728 20.1849 71.9411 21.0906 71.899 22.4176V29.6841C71.899 29.8947 71.7937 30 71.583 30H67.5707C67.36 30 67.2547 29.8947 67.2547 29.6841V14.9299C67.2547 14.7193 67.36 14.6139 67.5707 14.6139H70.8564ZM92.6777 37.2033C92.467 37.2033 92.3617 37.0875 92.3617 36.8558V14.9299C92.3617 14.7193 92.4776 14.6139 92.7092 14.6139H95.5211C95.7528 14.6139 95.9002 14.7193 95.9634 14.9299L96.5005 16.2252C97.5115 14.9194 98.9016 14.2664 100.671 14.2664C101.85 14.2664 102.914 14.4665 103.862 14.8667C104.81 15.2458 105.62 15.7934 106.294 16.5096C106.99 17.2046 107.516 18.0471 107.874 19.037C108.253 20.027 108.443 21.1222 108.443 22.3228C108.443 23.5233 108.253 24.6186 107.874 25.6085C107.516 26.5984 106.99 27.4409 106.294 28.136C105.62 28.831 104.81 29.3787 103.862 29.7788C102.914 30.158 101.85 30.3475 100.671 30.3475C99.1965 30.3475 97.9748 29.8842 97.006 28.9574V36.8874C97.006 37.098 96.9007 37.2033 96.69 37.2033H92.6777ZM97.0692 22.2912C97.0692 23.3232 97.3746 24.1552 97.9854 24.7871C98.6172 25.4189 99.4387 25.7349 100.45 25.7349C101.461 25.7349 102.272 25.4295 102.882 24.8187C103.493 24.1868 103.799 23.3548 103.799 22.3228C103.799 21.2907 103.493 20.4693 102.882 19.8585C102.272 19.2266 101.461 18.9107 100.45 18.9107C99.4387 18.9107 98.6172 19.2161 97.9854 19.8269C97.3746 20.4377 97.0692 21.2591 97.0692 22.2912ZM115.14 29.6841C115.14 29.8947 115.035 30 114.824 30H110.812C110.601 30 110.496 29.8947 110.496 29.6841V7.5054C110.496 7.29478 110.601 7.18947 110.812 7.18947H114.824C115.035 7.18947 115.14 7.29478 115.14 7.5054V29.6841ZM122.598 29.6841C122.598 29.8947 122.493 30 122.283 30H118.302C118.091 30 117.986 29.8947 117.986 29.6841V14.9615C117.986 14.7298 118.102 14.6139 118.333 14.6139H122.314C122.504 14.6139 122.598 14.7087 122.598 14.8983V29.6841ZM117.449 9.78014C117.449 8.91658 117.701 8.24259 118.207 7.75815C118.734 7.25266 119.429 6.99991 120.292 6.99991C121.156 6.99991 121.84 7.25266 122.346 7.75815C122.851 8.24259 123.104 8.91658 123.104 9.78014C123.104 10.6437 122.851 11.3388 122.346 11.8653C121.84 12.3708 121.156 12.6236 120.292 12.6236C119.429 12.6236 118.734 12.3708 118.207 11.8653C117.701 11.3388 117.449 10.6437 117.449 9.78014Z" fill="#2F37D9"/>
+      <path d="M131.197 29.6841C131.197 29.8947 131.092 30 130.881 30H128.986C128.775 30 128.67 29.8947 128.67 29.6841L128.638 18.0261H126.395C126.184 18.0261 126.079 17.9207 126.079 17.7101V16.0357C126.079 15.825 126.184 15.7197 126.395 15.7197H128.638V12.2128C128.617 10.4225 128.996 9.08508 129.776 8.20046C130.555 7.29478 131.597 6.84194 132.903 6.84194C133.767 6.84194 134.493 6.97884 135.083 7.25266C135.673 7.52647 136.084 7.74762 136.315 7.91612C136.484 8.02143 136.515 8.16887 136.41 8.35843L135.494 9.93811C135.431 10.1066 135.294 10.1382 135.083 10.0329C134.894 9.90651 134.62 9.76961 134.262 9.62217C133.925 9.45367 133.546 9.36942 133.124 9.36942C132.577 9.36942 132.124 9.61164 131.766 10.0961C131.408 10.5594 131.218 11.3388 131.197 12.434V15.7197H134.704C134.915 15.7197 135.02 15.825 135.02 16.0357V17.7101C135.02 17.9207 134.915 18.0261 134.704 18.0261H131.197V29.6841Z" fill="#2F37D9"/>
+      <path d="M140.01 29.7157C140.01 29.9052 139.916 30 139.726 30H137.767C137.578 30 137.483 29.9052 137.483 29.7157V7.47381C137.483 7.28425 137.578 7.18947 137.767 7.18947H139.726C139.916 7.18947 140.01 7.28425 140.01 7.47381V29.7157ZM142.085 22.8283C142.085 21.712 142.264 20.701 142.623 19.7953C142.981 18.8896 143.476 18.1103 144.107 17.4574C144.76 16.8044 145.54 16.2989 146.445 15.9409C147.372 15.5828 148.394 15.4038 149.51 15.4038C150.626 15.4038 151.637 15.5828 152.543 15.9409C153.47 16.2989 154.259 16.8044 154.912 17.4574C155.565 18.1103 156.071 18.8896 156.429 19.7953C156.787 20.701 156.966 21.712 156.966 22.8283C156.966 23.9446 156.787 24.9661 156.429 25.8928C156.071 26.7985 155.565 27.5884 154.912 28.2624C154.259 28.9153 153.47 29.4208 152.543 29.7788C151.637 30.1369 150.626 30.3159 149.51 30.3159C148.394 30.3159 147.372 30.1369 146.445 29.7788C145.54 29.4208 144.76 28.9153 144.107 28.2624C143.476 27.5884 142.981 26.7985 142.623 25.8928C142.264 24.9661 142.085 23.9446 142.085 22.8283ZM144.613 22.8283C144.613 24.3026 145.055 25.5032 145.94 26.4299C146.846 27.3356 148.036 27.7885 149.51 27.7885C150.984 27.7885 152.164 27.3356 153.048 26.4299C153.954 25.5032 154.407 24.3026 154.407 22.8283C154.407 21.3539 153.954 20.1744 153.048 19.2898C152.164 18.3841 150.984 17.9313 149.51 17.9313C148.036 17.9313 146.846 18.3841 145.94 19.2898C145.055 20.1744 144.613 21.3539 144.613 22.8283ZM165.655 16.0041C165.697 15.8145 165.813 15.7197 166.002 15.7197H167.898C168.066 15.7197 168.193 15.8145 168.277 16.0041L171.342 26.9038L174.059 16.0041C174.101 15.8145 174.206 15.7197 174.375 15.7197H176.649C176.86 15.7197 176.934 15.825 176.87 16.0357L172.89 29.7473C172.826 29.9158 172.7 30 172.51 30H170.299C170.13 30 170.015 29.9158 169.951 29.7473L166.95 19.0686L163.949 29.7473C163.928 29.9158 163.812 30 163.601 30H161.421C161.211 30 161.084 29.9158 161.042 29.7473L156.998 16.0041C156.914 15.8145 156.988 15.7197 157.219 15.7197H159.494C159.684 15.7197 159.799 15.8145 159.841 16.0041L162.559 26.7459L165.655 16.0041Z" fill="#2F37D9"/>
+      <path d="M4.07136 13.8972H0V31.9528H4.69091L7.25764 14.9593H7.9657V36.4667H12.8336L15.3118 12.9237H16.0199V40.0955H20.9763L23.5431 16.7596L23.9856 16.641V36.4667H29.0305L31.3317 19.4732H32.1283V31.9528H36.1112V13.8972H31.3317L28.8535 30.9792H28.1455V9.38334H23.2775L20.7993 33.1034H20.2683V5.66602H15.3118L12.8336 29.3861H12.1256V9.38334H7.25764L4.69091 26.2883H4.07136V13.8972Z" fill="#2F37D9"/>
+    </svg>
+  </a>
+  <div class="nav-links">
+    <a href="pricing.html" class="nav-link">Pricing</a>
+    <a href="about.html" class="nav-link" aria-current="page">About</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+  <div class="nav-spacer"></div>
+  <span class="nav-badge">53 spots left</span>
+  <a class="nav-cta" href="index.html#hero-email">Get early access</a>
+</nav>
+
+<main>
+
+<!-- 1. HERO -->
+<section class="ab-hero">
+  <div class="ab-wrap">
+    <span class="ab-hero-eyebrow">About · Ampliflow</span>
+    <h1>Built by founders who actually run <span class="em">outbound</span>.</h1>
+    <p class="ab-hero-lede">Three years inside two startups taught us what's broken about LinkedIn outreach tools. Ampliflow is what we wished existed on day one — every feature you'd actually use, none of the bloat, at the price it should be.</p>
+
+    <div class="ab-hero-meta">
+      <div class="row"><span class="k">Founded</span><span class="v">2025</span></div>
+      <div class="row"><span class="k">Team</span><span class="v">3 humans + 1 cat</span></div>
+      <div class="row"><span class="k">HQ</span><span class="v">SF · Bengaluru</span></div>
+      <div class="row"><span class="k">Funding</span><span class="v">Bootstrapped</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ORIGIN -->
+<section class="ab-origin">
+  <div class="ab-wrap">
+    <div class="ab-origin-inner">
+      <aside class="ab-origin-side">
+        <span class="ab-origin-tag">01 / Origin</span>
+        <div class="ab-origin-portrait">
+          <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+          <img src="team-deepak.png" alt="Deepak Yadav, founder of Ampliflow" loading="lazy" />
+        </div>
+        <div class="ab-origin-sig">
+          <a class="name" href="https://www.linkedin.com/in/deepak-yadav-40a202140/" target="_blank" rel="noopener noreferrer">
+            Deepak Yadav
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+          <span class="role">Founder · Ampliflow</span>
+        </div>
+      </aside>
+      <div class="ab-origin-body">
+        <p>I've watched founders, SDRs, and recruiters pour money into LinkedIn outreach tools charging <span class="accent">$79/mo for what should cost half</span>. So we built Ampliflow — every feature you'd actually use, none of the bloat, at the price it should be.</p>
+        <p>I spent three years running outbound at two startups. Every tool I touched was either overpriced, over-engineered, or shipping features nobody used while missing the ones that mattered. Pricing felt arbitrary, dashboards were noise, and the deliverability story was always <em>"don't worry about it."</em></p>
+        <p>Ampliflow is what I wish had existed on day one. Founding members lock in $19/mo for life. That's how we keep it honest as we grow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. BELIEFS -->
+<section class="ab-beliefs">
+  <div class="ab-wrap">
+    <header class="ab-section-head">
+      <span class="ab-section-num">02 / Mission</span>
+      <h2 class="ab-section-h2">Three things we refuse to compromise.</h2>
+      <p class="ab-section-sub">Every roadmap call, every pricing change, every support reply runs through these three filters first.</p>
+    </header>
+
+    <div class="ab-beliefs-grid">
+      <article class="ab-belief">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-belief-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3 class="ab-belief-h">Half the price.</h3>
+        <p class="ab-belief-text">If a feature ships in Dripify or Expandi, we ship it for half. Pricing should reflect what software costs to run, not what the market will bear.</p>
+      </article>
+      <article class="ab-belief tone-fill">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-belief-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3 class="ab-belief-h">Same safety.</h3>
+        <p class="ab-belief-text">Real-time risk scoring, daily caps, anomaly detection. Cutting the price doesn't mean cutting the guardrails.</p>
+      </article>
+      <article class="ab-belief tone-dots">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-belief-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </div>
+        <h3 class="ab-belief-h">Real human support.</h3>
+        <p class="ab-belief-text">Every founding member gets a private Slack with the people who write the code. No tickets, no chat bots.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 4. TEAM -->
+<section class="ab-team">
+  <div class="ab-wrap ab-team-inner">
+    <header class="ab-section-head">
+      <span class="ab-section-num">03 / Team</span>
+      <h2 class="ab-section-h2">Three people. That's the whole <span class="accent">company</span>.</h2>
+      <p class="ab-section-sub">Two engineers and a designer. If you talk to Ampliflow, you're talking to the people writing the code.</p>
+    </header>
+
+    <div class="ab-team-grid">
+      <article class="ab-member">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-member-photo"><img src="team-deepak.png" alt="Deepak Yadav, Founder &amp; Engineering" loading="lazy" /></div>
+        <div class="ab-member-info">
+          <h3 class="ab-member-name">Deepak Yadav</h3>
+          <span class="ab-member-role">Founder · Engineering</span>
+        </div>
+        <p class="ab-member-bio">Three years running outbound at two startups before writing the first commit. Owns the workflow engine, the safety scoring, and most Friday changelogs.</p>
+        <a class="ab-member-link" href="https://www.linkedin.com/in/deepak-yadav-40a202140/" target="_blank" rel="noopener noreferrer" aria-label="Deepak Yadav on LinkedIn">
+          LinkedIn / Deepak
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </article>
+      <article class="ab-member">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-member-photo"><img src="team-nivedita.jpeg" alt="Nivedita Verma, Design &amp; Product" loading="lazy" /></div>
+        <div class="ab-member-info">
+          <h3 class="ab-member-name">Nivedita Verma</h3>
+          <span class="ab-member-role">Design · Product</span>
+        </div>
+        <p class="ab-member-bio">Ex-Linear, ex-Figma. Owns the visual system, the workflow builder UX, and the rule that no screen ships unless a founding member can read it in five seconds.</p>
+        <a class="ab-member-link" href="https://www.linkedin.com/in/nivedita-verma-ossian/" target="_blank" rel="noopener noreferrer" aria-label="Nivedita Verma on LinkedIn">
+          LinkedIn / Nivedita
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </article>
+      <article class="ab-member">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-member-photo"><img src="team-harsh.png" alt="Harsh Gupta, Engineering &amp; Platform" loading="lazy" /></div>
+        <div class="ab-member-info">
+          <h3 class="ab-member-name">Harsh Gupta</h3>
+          <span class="ab-member-role">Engineering · Platform</span>
+        </div>
+        <p class="ab-member-bio">Ex-payments infrastructure. Owns the cloud execution layer, the inbox sync, and the "why is this 200ms faster this week" graphs.</p>
+        <a class="ab-member-link" href="https://www.linkedin.com/in/harshguptaa04/" target="_blank" rel="noopener noreferrer" aria-label="Harsh Gupta on LinkedIn">
+          LinkedIn / Harsh
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. CLOSING CTA — simplified split -->
+<section class="ab-cta">
+  <div class="ab-wrap">
+    <div class="ab-cta-inner">
+      <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+
+      <div class="ab-cta-left">
+        <span class="ab-cta-tag"><span class="dot"></span>Founding offer · 47 / 100 claimed</span>
+        <h2>Lock in <span class="em">$19/mo.</span><br/>For life.</h2>
+
+        <ul class="ab-cta-perks">
+          <li><strong>$19/mo, forever</strong> — your rate never changes</li>
+          <li><strong>Direct Slack</strong> with the team</li>
+          <li><strong>Vote on the roadmap</strong>, every Friday</li>
+        </ul>
+
+        <form class="ab-cta-form" action="#" method="POST" aria-label="Join the Ampliflow waitlist">
+          <input type="email" name="email" placeholder="you@company.com" required autocomplete="email" aria-label="Email address" />
+          <button type="submit">
+            Claim founding spot
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </form>
+        <p class="ab-cta-fineprint">No credit card · cancel anytime</p>
+      </div>
+
+      <aside class="ab-cta-right" aria-label="Founding rate breakdown">
+        <span class="brackets tl"></span><span class="brackets tr"></span><span class="brackets bl"></span><span class="brackets br"></span>
+        <div class="ab-cta-price">
+          <span class="n">$19</span>
+          <span class="u">/ month</span>
+        </div>
+        <div class="ab-cta-vs-simple">
+          <span class="vs-strike">$39/mo</span>
+          <span class="vs-label">public price · Q3 2026</span>
+        </div>
+        <div class="ab-cta-spots">
+          <div class="ab-cta-bar"><div class="fill"></div></div>
+          <div class="ab-cta-spots-label">
+            <span>Claimed</span>
+            <span><strong>47</strong> / 100</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo" aria-label="Ampliflow">
+          <svg viewBox="0 0 178 41" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4.07136 13.8972H0V31.9528H4.69091L7.25764 14.9593H7.9657V36.4667H12.8336L15.3118 12.9237H16.0199V40.0955H20.9763L23.5431 16.7596L23.9856 16.641V36.4667H29.0305L31.3317 19.4732H32.1283V31.9528H36.1112V13.8972H31.3317L28.8535 30.9792H28.1455V9.38334H23.2775L20.7993 33.1034H20.2683V5.66602H15.3118L12.8336 29.3861H12.1256V9.38334H7.25764L4.69091 26.2883H4.07136V13.8972Z" fill="#2F37D9"/>
+          </svg>
+        </a>
+        <p class="footer-tagline">Cloud-based LinkedIn outreach with a visual workflow builder. Half the price, every feature you actually use.</p>
+        <div class="footer-status">
+          <span class="footer-status-dot"></span>
+          All systems operational
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-h">Product</h4>
+        <a href="pricing.html" class="footer-link">Pricing</a>
+        <a href="index.html#how" class="footer-link">How it works</a>
+        <a href="index.html#integrations" class="footer-link">Integrations</a>
+        <a href="pricing.html#compare" class="footer-link">Compare</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-h">Company</h4>
+        <a href="about.html" class="footer-link">About</a>
+        <a href="careers.html" class="footer-link">Careers</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="mailto:press@ampliflow.io" class="footer-link">Press</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-h">Resources</h4>
+        <a href="index.html#faq" class="footer-link">FAQ</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms of service</a>
+        <a href="#" class="footer-link">Security</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom-strip">
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Ampliflow. All rights reserved.</span>
+    <span class="footer-made">Built for founders who actually run outbound</span>
+  </div>
+</div>
+
+</div>
+
+<script src="scroll-reveal.js" defer></script>
+
+</body>
+</html>
